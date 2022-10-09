@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.home-body-01{
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+}
+.section-01::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left top,#ff3838,gold);
+    clip-path: circle(25% at 10% 10%);
+}
+.a1st::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right top,#ff3838,gold);
+    clip-path: circle(20% at 95% 90%);
+}
+.a2th::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#18dcff,#3ae374);
+    clip-path: circle(5% at 30% 90%);
+}
+.a3th:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#7efff5,#32ff7e);
+    clip-path: circle(7% at 70% 10%);
+}
+.b1st{
+    width: 90%;
+    height: 86vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    z-index: 10;
+    backdrop-filter: blur(14px);
+    border-radius: 15px;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.section--02{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+.section--02 img{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.main-body-02{
+    position: absolute;
+    top: 108vh;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 84%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+
+
+.b1-btn-01-02{
+    display: flex;
+}
+.b1-button-01{
+    width: 199px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 0px 5px rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.b1-button-02{
+    width: 199px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 0px 5px rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease-in-out;
+
+}
+.b1-button-01 a, .b1-btn-01-02 a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
+.b1-button-01:hover, .b1-button-02:hover{
+    background-image: linear-gradient(to top left,#fff200,#ff3838);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fff200,0px 0px 40px #ff3838,0px 0px 80px #fff200,0px 0px 120px #ff3838;
+    transform: scale(1.2);
+}
+.b1-c{
+    color: white;
+    text-transform: capitalize;
+}
+.b1-head{
+    margin-top: 27%;
+}
+
+.images-001 img{
+ width: 100%;
+}
+
+
+/* second page er css shuru */
+.c1-c1{
+    color: white;
+    text-transform: capitalize;
+}
+.c1-c1-head{
+    margin-top: 25%;
+
+}
+.head-c1-c1{
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-p-c1-c1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 7%;
+
+}
+.btn-c1-01 a{
+    color: white;
+    padding: 10px 40px;
+    box-shadow: 2px 0px 5px rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
+
+}
+.btn-c1-02 a{
+    color: white;
+    padding: 10px 48px;
+    box-shadow: 2px 0px 5px rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-c1-01 a:hover, .btn-c1-02 a:hover{
+    background-image: linear-gradient(to top left,#fff200,#ff3838);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fff200,0px 0px 40px #ff3838,0px 0px 80px #fff200,0px 0px 120px #ff3838;
+     padding: 15px 55px;
+}
+
+.c1-c2 img{
+width: 100%;
+}
+
+
+/* third section er csss code shurru akhan theke */
+.section-03{
+    width: 100%;
+    height: 100vh;
+
+}
+.back-01-01{
+    position: absolute;
+   
+}
+.back-01-01 img{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.d1-main-box{
+    position: absolute;
+    width: 90%;
+    left: 5vw;
+    height: 84vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    margin-top: 7vh;
+    border-radius: 20px;
+}
+.e-1-e1{
+    color: white;
+}
+.e1-head{
+    color: white;
+    margin-top: 26%;
+    letter-spacing: 2.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+.e1-p1-e1{
+    color: white;
+    margin-bottom: 7%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.e1-btn-01{
+    margin-bottom: 9%;
+}
+.e1-e1-btn a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2.3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    transition: all 0.25s ease-in-out;
+}
+.e1-btn-01 a{
+    padding: 14px 41px;
+    box-shadow: 1px 0px 7px rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+
+.e1-btn-02 a{
+    padding: 14px 30px;
+    box-shadow: 1px 0px 7px rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+.e1-btn-01 a:hover{
+    background-image: linear-gradient(to top left,#fff200,#ff3838);
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px #fff200,0px 0px 40px #ff3838,0px 0px 80px #fff200,0px 0px 120px #ff3838;
+    padding: 20px 50px;
+}
+.e1-btn-02 a:hover{
+    background-image: linear-gradient(to top left,#fff200,#ff3838);
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px #fff200,0px 0px 40px #ff3838,0px 0px 80px #fff200,0px 0px 120px #ff3838;
+    padding: 20px 40px;
+
+}
+
+.e1-c2-img img{
+margin-top: 7%;
+    width: 100%;
+}
+
+
+.section-004{
+    width: 100%;
+    height: 100vh;
+}
+.back-04-01 img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
