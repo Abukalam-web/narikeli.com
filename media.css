@@ -1,0 +1,23 @@
+@media screen and(max-width: 420px){
+
+    .b1st {
+        width: 90%;
+        height: 1000px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.7);
+        z-index: 10;
+        backdrop-filter: blur(14px);
+        border-radius: 15px;
+    }
+    .main-p-1 {
+        margin-bottom: 17%;
+    }
+    .b1-btn-01-02 .b1-button-01{
+        margin-left: 20px;
+    }
+
+
+
+
+
+}
